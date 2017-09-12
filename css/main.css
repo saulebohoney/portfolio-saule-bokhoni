@@ -9,5 +9,59 @@ body, html {
 }
 
 #menu{
-  background-image: url('http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg');
+  position: absolute;
+  top:0;
+  z-index: 3;
+  text-align: center;
+  animation: fadeInDown .6s 0.5s ease both;
 }
+#header h1 {
+  width:392px;
+  height:1006px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  animation: fadeInUp .6s .5s ease both;
+}
+
+.animateall * {
+transition-duration:  0.2s;
+transition-timing-function: ease-in-out;
+}
+
+#header{
+  display: table;
+  z-index: 1;
+  background: url('http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg') no-repeat center;
+}
+
+@media (max-width: 750px){
+#header {
+  position: absolute;
+}
+
+#menu{
+  width: 100%;
+  padding-top: 10px;
+  left: 0;
+  margin: 0;
+
+}
+}
+
+@media (max-width: 450px){
+  h1{
+    line-height: 1.2em;
+    font-size:  3em;
+  }
+
+}
+
+@media (max-width:767px){
+  h1{
+    color:#FFF;
+    margin:0px;
+    padding: 0px;
+}
+}
+
