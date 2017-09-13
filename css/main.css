@@ -1,14 +1,11 @@
+@import "compass/css3";
+
 body {
   font-family: Raleway, sans-serif;
   font-size: 62.5%;
   color: rgb(67, 67, 67);
-  animation: fadeIn 1s ease 0.1s both;
 }
 
-body {
-  display: block;
-  /* margin: 8px; */
-}
 body, html {
   width: 100%;
   height: 100%;
@@ -22,11 +19,11 @@ body, html {
 #menu {
   width: 100%;
   position: absolute;
-  z-index: 3;
+  /* z-index: 3; */
   text-align: center;
 }
 
-  #logo {
+  /* #logo {
     width: 235px;
     height: 79px;
     position: absolute;
@@ -37,16 +34,10 @@ body, html {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-}
-
-/* #nav {
-  display: none;
-  margin-top: 89px;
 } */
 
+
 #nav a {
-  /* -webkit-animation: slam .6s 0.5s ease both;  */
-  /* margin: 0 4% 0; */
   display: inline;
   font-size: 1.7em;
   text-decoration: none;
@@ -54,13 +45,6 @@ body, html {
   font-weight: 700;
 } 
 
-a, a:link {
-  text-decoration: none;
-}
-
-a:active, a:link {
-  outline: none;
-}
 
 #header {
   display: table;
@@ -68,7 +52,7 @@ a:active, a:link {
   top: 0;
   left: 0;
   background-image: url("http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg");
-  z-index: 1;
+  /* z-index: 1; */
   width: 100%;
   height: 500px;
 }
@@ -77,12 +61,8 @@ a:active, a:link {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  /* -webkit-animation: fadeInUp .6s .5s ease both;
-  -moz-animation: fadeInUp .6s .5s ease both;
-  -ms-animation: fadeInUp .6s .5s ease both;
-  -o-animation: fadeInUp .6s .5s ease both;
-  animation: fadeInUp .6s .5s ease both; */
 }
+
 h1 {
   color: #fff;
   font-size: 7em;
@@ -90,10 +70,6 @@ h1 {
   line-height: 0.8em;
 }
 
-p, li, h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-  padding: 0px;
-}
 
 #header h1 span {
   color: #363636;
@@ -105,10 +81,6 @@ width: 100%;
 margin-top: 500px;
 background: #fff;
 position: relative;
-z-index: 2;
--webkit-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
--moz-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
 }
 
 .animateWidth{
@@ -122,11 +94,103 @@ box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
   background-position: center;
   background-repeat: no-repeat;
 }
-.footer {
+.contactWrapper {
   width: 100%;
+  height:350px;
+  background-color:#181818;
+ 
+}
+
+.contactWrapper h2, .contactWrapper h3 {
+  color: #8e8e8e;
+}
+
+.contactWrapper a{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+a{
+  color: #4bb8d2;
+}
+
+.contactWrapper p, .contactWrapper li {
+  color: rgba(109, 109, 109, 0.61);
+  padding-top:  2px;
+}
+ p, li {
+   font-size: 1.7em;
+   font-family: helvetica,Arial;
+   line-height: 1.5em;
+   padding-right: 20px;
+   padding-bottom: 9px;
+   padding-left: 20px;
+ }
+li {
+  display: list-item;
+  list-style: none;
+ }
+
+#contact{
+  width:100%;
+  max-width: 960px;
+  margin:auto;
+  padding:40px;
+}
+
+#contact h2 {
+  text-align: left;
+  margin: 0;
+
+
+}
+
+h2{
+  padding: 12px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#contact .article {
+  float: left;
+  width: 48%;
+}
+
+#contact .artc2 {
+  width: 38%;
+  padding-left:  10%;
+}
+.footer{
   padding:20px;
   font-size: 1.7em;
   text-align: center;
-  height: 400px;
-  background-color: #6d6d6d;
+  background-color: #181818;
+  width:100%;
+  font-family: helvetica, Arial;
+}
+
+#about h2 {
+  padding-top: 75px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  font-size: 5.7em;
+  line-height: 0.9em;
+}
+
+#about p, #about li {
+  padding: 75px 0 0 0;
+  text-align: left;
+  font-size: 2.5em;
+  line-height: 1.4em;
+  color: #969696;
 }
