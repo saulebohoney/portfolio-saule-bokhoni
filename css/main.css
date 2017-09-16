@@ -23,19 +23,6 @@ body, html {
   text-align: center;
 }
 
-  /* #logo {
-    width: 235px;
-    height: 79px;
-    position: absolute;
-    left: 50%;
-    margin-left: -117.5px;
-    background: url(../images/logo.png) no-repeat;
-    background-size: 100%;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-} */
-
 
 #nav a {
   display: inline;
@@ -47,29 +34,45 @@ body, html {
 
 
 
-@media only screen and (min-width:600px){
+
 #header {
   display: table;
   position: fixed;
   top: 0;
   left: 0;
   background-image: url("http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg");
-  /* z-index: 1; */
   width: 100%;
   height: 500px;
   background-size:cover;
+      }
 
+
+@media (max-width:699px){
+  #header {
+    background-image: url("http://thecutestblogontheblock.com/wp-content/uploads/2011/11/museum-of-modern-free-stretch-blog-background.jpg");
+    width: 100%;
+    height: 500px;
+    background-size:cover;
   }
 }
 
 
-/* @media only screen and (max-width:1280px, max-height:426px;){
-  #header{
-    display: table;
-    background-size:cover;
+  #header h1{
+  vertical-align: middle;
+  margin-top: 17%;
+  text-align: center;
+}
 
-  }
-} */
+h1 {
+  color: rgba(47, 45, 45, 0.87); 
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+  
+}
+
+
 #header h1 {
   
   vertical-align: middle;
