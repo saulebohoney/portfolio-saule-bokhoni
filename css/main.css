@@ -230,6 +230,7 @@ h3 {
   padding-bottom: 0px;
   text-align: left;
   font-size: 5.7em;
+
   line-height: 0.9em;
 }
 
@@ -281,11 +282,9 @@ h3 {
     margin-left: 50px;
     
   }
- @media (min-width){
 
 
- }  */
-
+ /* IPHONE 5 MEDIA QUERY MOBILE FIRST DEFAULT SETTINGS*/
  #header {
   top:0;
   left:0;
@@ -330,8 +329,6 @@ body, html {
   background-color: #181818;
   font-family: helvetica, Arial;
 }
-
-
 
 .contactWrapper {
   width: 100%;
@@ -457,4 +454,96 @@ li {
     margin-bottom:15px;
     margin-right: 33%
   }
+
+/* IPHONE 6 MEDIA QUERY*/
+@media only screen and (max-width:375px) and (min-width: 321px){
+
+#header{
+height:200px;
+}
+
+.workItem{
+  width:80px;
+  height:65px;
+}
+
+#about .col.left{
+  width:40%;
+}
+p, li {
+  font-size: 1.5em;
+  font-family: helvetica,Arial;
+  line-height: 1.5em;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+}
+
+/* IPHONE 6Plus MEDIA QUERY*/
+@media only screen and (max-width:414px) and (min-width: 376px){
+  #header{
+    height:250px;
+    }
+.workItem{
+  width:80px;
+  height:65px;
+}
+#about .col.left{
+  width:40%;
+}
+#about p{
+  font-size:2em;
+}
+
+#header h1{
+
+  font-size: large;
+}
+h2{
+  font-size: 2em;
+}
+
+.contactWrapper h2, .contactWrapper h3, .contactWrapper p {
+
+  font-size: 2em;
+}
+
+
+.footer{
+  padding:20px;
+  font-size: 2em;
+  text-align: center;
+  background-color: #181818;
+  font-family: helvetica, Arial;
+}
+
+p, li {
+  font-size: 1.5em;
+  font-family: helvetica,Arial;
+  line-height: 1.5em;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#contact .article {
+  float: left;
+  width: 52%;
+}
+
+#contact .artc2 {
+  width: 38%;
+}
+
+.contactWrapper a{
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #4bb8d2;
+  font-size: larger;
+}
+
+li {
+  display: list-item;
+  list-style: none;
+ }
+ 
+}
 
