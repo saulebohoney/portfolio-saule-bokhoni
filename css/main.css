@@ -929,3 +929,237 @@ li {
     }
 
  
+    @media only screen and (max-width:1024px) and (min-width: 769px){
+      #header {
+        top:0;
+        left:0;
+        right:0;
+        display: inline;
+        position: fixed;
+        background-image: url("http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg");
+        height: 650px;
+        background-size:cover;
+      }
+      #header h1{
+        margin-top:22%;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 5em;
+      }
+      
+      #header h2{
+        text-align: center;
+        font-size:4em;
+      }
+      
+      #header p {
+          font-size: 3em;
+          font-family: helvetica,Arial;
+          line-height: 1.5em;
+          text-align: center;
+          margin-left:15px;
+          margin-right:15px;
+      }
+      
+      #work h2{
+        text-align: center;
+      }
+      
+      #contentContainer{
+      width: 100%;
+      background:#4bb8d2;
+      position: relative;
+      overflow-x:hidden;
+      }
+      
+      body {
+        font-family: Raleway, sans-serif;
+        font-size: 62.5%;
+        color: rgb(67, 67, 67);
+      }
+      
+      body, html {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+      } 
+      
+      .footer{
+        padding:20px;
+        font-size: 2.5em;
+        text-align: center;
+        background-color: #181818;
+        font-family: helvetica, Arial;
+      }
+      span{
+        font-size: 0.9em;
+      }
+        
+      .contactWrapper {
+        width: 100%;
+        height:fit-content;
+        background-color:#181818;
+      }
+      
+      .contactWrapper h2, .contactWrapper h3 {
+        color: #8e8e8e;
+        font-size: 3.2em;
+      }
+      
+      .contactWrapper a{
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      .animateWidth a{
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: white;
+        font-size: 2em;
+      }
+      
+      a{
+        color: #4bb8d2;
+      }
+      
+      .contactWrapper p, .contactWrapper li {
+        color: rgba(245, 244, 244, 0.77);
+        padding-top:  2px;
+      }
+       #contact p, li {
+         font-size: 2.7em;
+         font-family: helvetica,Arial;
+         line-height: 2em;
+         padding-right: 20px;
+       }
+      
+      li {
+        display: list-item;
+        list-style: none;
+       }
+      
+      #contact{
+        width:100%;
+        margin:auto;
+        padding:20px;
+      }
+      
+      #contact h2 {
+        text-align: left;
+        margin: 0;
+      }
+      
+        
+      .animateWidth{
+         display: flex;
+        flex-direction: column;
+         margin-bottom: 30px;
+         text-align: center;
+         margin-top: 15px;
+         margin-bottom: 15px;
+        }
+      
+      
+      .workItemOne{
+        width:90%;
+        height:570px;
+       background-repeat: no-repeat; 
+        background-size:100%;
+        
+        background-image: url('../images/hungryapp2.png');
+        display: inline-block;
+       margin-top:15px;
+      
+      }
+  
+    
+      .workItemTwo{
+        width:90%;
+        height:700px;
+       background-repeat: no-repeat; 
+        background-size:100%;
+        display: inline-block;
+        margin-top:15px;
+      }
+      
+      
+      .workItemThree{
+        width:90%;
+        height:700px;
+       background-repeat: no-repeat; 
+        background-size:100%;
+        display: inline-block;
+        margin-top:15px;
+      }
+      
+      .workItemFour{
+        width:90%;
+        height:500px;
+       background-repeat: no-repeat; 
+        background-size:100%;
+        display: inline-block;
+        margin-top: 15px;
+      }
+      
+       #about .col.third {
+        flex-wrap: wrap;
+        margin-left: 15%;
+        justify-content: center;
+        margin-right: 15%;
+        margin-top:5%;
+        margin-bottom:5%;
+        text-align: center;
+        display:flex;
+      } 
+      
+      
+      #about .col.third .image p{
+        color:white;
+        font-family: helvetica,Arial;
+        font-size:20px;
+        margin-bottom:5px;
+        letter-spacing:normal;
+        font-weight:normal;
+        text-align:center;
+        border-radius:4px;
+      }
+      .img-1, .img-10, .img-11, .img-12, .img-2, 
+      .img-3, .img-4, .img-5, .img-6, .img-7, 
+      .img-8, .img-9, .img-10, .img-11, .img-12
+      { max-width: 100%; background-size: 100%; background-image: url('../images/download.png');width: 110px; } 
+      .img-1 { background-position: 0 0%; background-size: 100%;height:100px;  }
+      .img-10 { background-position: 0 9.136213%; background-size: 100%;}
+      .img-11 { background-position: 0 18.272425%; background-size: 100%; }
+      .img-12 { background-position: 0 27.408638%; background-size: 100%; }
+      .img-3 { background-position: 0 45.681063%; background-size: 100%; }
+      .img-4 { background-position: 0 54.817276%; background-size: 100%; }
+      .img-5 { background-position: 0 63.953488%; background-size: 100%; }
+      .img-6 { background-position: 0 72.487644%; background-size: 100%; }
+      .img-7 { background-position: 0 81.395349%; background-size: 100%; }
+      .img-8 { background-position: 0 90.833333%; background-size: 100%; }
+      .img-9 { background-position: 0 100%; background-size: 100%; } 
+      
+      
+      #about {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background: rgba(47,45,45, 0.96);
+        background-size: cover;
+        margin-top:57%;
+      }
+      
+      #about .col.left {
+        width:30%;
+        display: inline-table;
+        float:left;
+      }
+      
+      
+        .clear{
+          clear: both;
+        }
+      
+      }
+  
