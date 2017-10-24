@@ -2105,7 +2105,7 @@ li {
                 display: inline;
                 position: fixed;
                 background-image: url("http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg");
-                height: 800px;
+                height: 850px;
                 background-size:cover;
               }
               #header h1{
@@ -2125,8 +2125,8 @@ li {
                   font-family: helvetica,Arial;
                   line-height: 1.5em;
                   text-align: center;
-                  margin-left:30px;
-                  margin-right:30px;
+                  margin-left:20px;
+                  margin-right:20px;
               }
               
               #work h2{
@@ -2230,8 +2230,8 @@ li {
               
                
           .workItemOne{
-            width:75%;
-            height:520px;
+            width:57%;
+            height:450px;
            background-repeat: no-repeat; 
             background-size:100%;
             background-image: url('../images/hungryapp2.png');
@@ -2243,7 +2243,7 @@ li {
         
           .workItemTwo{
             width:75%;
-            height:550px;
+            height:700px;
            background-repeat: no-repeat; 
             background-size:100%;
             display: inline-block;
@@ -2253,7 +2253,7 @@ li {
           
           .workItemThree{
             width:75%;
-            height:600px;
+            height:727px;
            background-repeat: no-repeat; 
             background-size:100%;
             display: inline-block;
@@ -2261,8 +2261,8 @@ li {
           }
           
           .workItemFour{
-            width:75%;
-            height:500px;
+            width:57%;
+            height:450px;
            background-repeat: no-repeat; 
             background-size:100%;
             display: inline-block;
