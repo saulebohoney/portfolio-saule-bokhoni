@@ -626,7 +626,7 @@ li {
     
     .workItemFour{
       width:320px;
-      height:240px;
+      height:180px;
      background-repeat: no-repeat; 
       background-size:100%;
       display: inline-block;
@@ -860,7 +860,7 @@ li {
       
       .workItemFour{
         width:320px;
-        height:240px;
+        height:200px;
        background-repeat: no-repeat; 
         background-size:100%;
         display: inline-block;
@@ -1095,7 +1095,7 @@ li {
     
     .workItemFour{
       width:550px;
-      height:405px;
+      height:380px;
      background-repeat: no-repeat; 
       background-size:100%;
       display: inline-block;
@@ -1533,7 +1533,7 @@ li {
         
         .workItemOne{
           width:90%;
-          height:520px;
+          height:500px;
          background-repeat: no-repeat; 
           background-size:100%;
           background-image: url('../images/hungryapp2.png');
@@ -1555,7 +1555,7 @@ li {
         
         .workItemThree{
           width:90%;
-          height:650px;
+          height:600px;
          background-repeat: no-repeat; 
           background-size:100%;
           display: inline-block;
@@ -1765,7 +1765,7 @@ li {
           
           .workItemOne{
             width:75%;
-            height:520px;
+            height:497px;
            background-repeat: no-repeat; 
             background-size:100%;
             background-image: url('../images/hungryapp2.png');
@@ -1787,7 +1787,7 @@ li {
           
           .workItemThree{
             width:75%;
-            height:600px;
+            height:570px;
            background-repeat: no-repeat; 
             background-size:100%;
             display: inline-block;
@@ -2331,7 +2331,6 @@ li {
                 }
               
               }
-
 
             @media only screen and (max-width: 2000px) and (min-width: 1536px){
               #header {
